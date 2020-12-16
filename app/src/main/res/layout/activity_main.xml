@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:text="Mantenimiento de Usuarios"
+        android:textSize="24sp" />
+
+    <Button
+        android:id="@+id/btnMAInsUsuario"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="llamarInsUsuario"
+        android:text="Insertar usuario" />
+    <Button
+        android:id="@+id/btnConsulUsuario"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="llamarConsultarUsuario"
+        android:text="Consultar usurio" />
+    <Button
+        android:id="@+id/btnlistarusuarios"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="llamarListarUserSpinner"
+        android:text="Listar Usuarios listView" />
+    <Button
+        android:id="@+id/lstusuSpinner"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="llamarList_item_usuario"
+        android:text="Listar Recycler" />
+
+
+</LinearLayout>
